@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Institute Project - DOTNET Institute</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<!----Header section start from here----->
+	<section class="sub-contact-header">
+		<!---nav-bar start from here---->
+		<nav> 
+			<a href="index.html"> <img src="images/logo.png"></a>
+			<div class="nav-style" id="navStyle">
+				<i class="fa fa-times-circle-o" onclick="hideMenu()"></i> 
+				<ul>
+					<li> <a href="index.html"> Home </a></li>
+					<li> <a href="about.html"> About </a></li>
+					<li> <a href="course.html"> Course </a></li>
+					<li> <a href="blog.html"> Blog </a></li>
+					<li> <a href="contact.html"> Contact </a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<!---nav-bar ends from here---->
+		<h1> Contact Us </h1>
+	</section>
+	<!----Header section ends from here----->
+
+
+	<!----Contact page body section start from here----->
+	<section class="contact-us">
+		<div class="contact-row">
+			<div class="contact-column">
+					<div>
+						<i class="fa fa-home"></i>
+						<span>
+							<h5> DOTNET Institute, C-13 B-Block</h5>
+							<p> Garavepalaye , lakshmi layout , Banglore 560068</p>
+						</span>
+					</div>
+
+					<div>
+						<i class="fa fa-phone"></i>
+						<span>
+							<h5> +91 8883665518</h5>
+							<p> Monday to Saturday 09 Am to 07 Pm</p>
+						</span>
+					</div>
+
+					<div>
+						<i class="fa fa-envelope"></i>
+						<span>
+							<h5> info@uddin.com </h5>
+							<p>  Email us for your query </p>
+						</span>
+					</div>
+			</div>
+
+			<div class="contact-column">
+				<form method="post" action="contact-form-handler.php">
+					<input type="text" name="name" placeholder="Enter your name" required><br>
+					<input type="email" name="email" placeholder="Enter your email Id" required><br>
+					<input type="text" name=" text" placeholder="Enter your course" required><br>
+					<textarea rows="12" mame="message" placeholder="Message" required></textarea><br>
+					<button type="submit" class="btn-sub"> submit</button>
+					<button type=reset class="btn-cle"> Clear</button>
+				</form>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="location">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.365631884258!2d77.63631271426294!3d12.884194820277552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae14b3d63bd44f%3A0x3d9a49520a0a615c!2sChikkabegur%2C%20Bengaluru%2C%20Karnataka%20560068!5e0!3m2!1sen!2sin!4v1680174384809!5m2!1sen!2sin" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</section>
+	<!----Contace page body section ends from here-------->
+
+
+
+	<!--Footer Section start from here--->
+	<section class="footer">
+		<h1> About us</h1>
+		<p> Pharetra, aliquet habitant risus senectus ligula hymenaeos congue maecenas lectus venenatis elementum lacus.</br> Ultricies aliquam purus. Tortor potenti dictum gravida, curabitur sapien. Lobortis pharetra nisl habitant </p>
+
+		<div class="icon">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+			<i class="fa fa-youtube"></i>
+			<i class="fa fa-whatsapp"></i>
+		</div>
+		<p class="made"> made with <i class="fa fa-heart"></i> by Giash Uddin  </p>
+	</section>
+	<!--Footer Section ends from here--->
+	<script type="text/javascript" src="index.js"> </script>
+</body>
+</html>
+
